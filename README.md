@@ -108,3 +108,11 @@ tiny-turn-detector/
 ├── results/          # Benchmark matrices, reports, ONNX checkpoints
 └── docs/             # PRD, Architecture, Experiment logs
 ```
+
+---
+
+## 🔗 Live Application & Links
+
+- **GitHub Repository**: [https://github.com/sup18github/Turn-detection](https://github.com/sup18github/Turn-detection)
+- **Live Streamlit App**: [http://localhost:8501](http://localhost:8501)
+
