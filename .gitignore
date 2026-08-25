@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Byte-compiled / binary / cache
+*.npz
+*.npy
+
+# Audio raw data (except sample manifest)
+data/raw/*.wav
+data/processed/*.npz
+
+# Logs & IDEs
+*.log
+.vscode/
+.idea/
+.DS_Store

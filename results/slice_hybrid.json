@@ -1,0 +1,47 @@
+{
+  "model": "Hybrid",
+  "slices": {
+    "filler": {
+      "F1": 0.0,
+      "FalseEarlyEnd%": 0.0
+    },
+    "long_hesitation": {
+      "F1": 0.0,
+      "FalseEarlyEnd%": 0.0
+    },
+    "mid_sentence_pause": {
+      "F1": 0.0,
+      "FalseEarlyEnd%": 0.0
+    },
+    "normal_ending": {
+      "F1": 1.0,
+      "FalseEarlyEnd%": 0
+    },
+    "self_correction": {
+      "F1": 0.0,
+      "FalseEarlyEnd%": 0.0
+    },
+    "short_answer": {
+      "F1": 1.0,
+      "FalseEarlyEnd%": 0
+    },
+    "lang_english": {
+      "F1": 0.0
+    },
+    "lang_hindi": {
+      "F1": 0.0
+    },
+    "lang_hinglish": {
+      "F1": 1.0
+    },
+    "pause_1-2s": {
+      "F1": 1.0
+    },
+    "pause_200-500ms": {
+      "F1": 0.0
+    },
+    "pause_500-1000ms": {
+      "F1": 1.0
+    }
+  }
+}

@@ -1,0 +1,27 @@
+experiment_name: exp_001_baseline
+model:
+  type: baseline_vad
+  vad_mode: energy
+  energy_threshold: 0.01
+  speech_ratio_threshold: 0.2
+
+silence_sweep:
+  thresholds_ms: [300, 500, 700, 1000, 1500, 2000]
+
+vad_mlp:
+  hidden_dims: [32, 16]
+  dropout: 0.1
+
+training:
+  batch_size: 64
+  learning_rate: 0.001
+  epochs: 15
+  weight_decay: 0.0001
+  pos_weight: 2.0
+
+data:
+  sample_rate: 16000
+  context_seconds: 2.0
+  train_split: 0.70
+  val_split: 0.15
+  test_split: 0.15

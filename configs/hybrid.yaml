@@ -1,0 +1,23 @@
+experiment_name: exp_005_hybrid
+model:
+  type: hybrid
+  whisper_model_name: tiny
+  freeze_encoder: true
+  unfreeze_last_n_layers: 2
+  temporal_type: gru
+  gru_hidden_dim: 64
+  gru_num_layers: 1
+  pause_feature_dim: 6
+  fusion_hidden_dims: [128, 64]
+  dropout: 0.2
+
+training:
+  batch_size: 32
+  learning_rate: 0.0003
+  epochs: 20
+  weight_decay: 0.0001
+  pos_weight: 2.5
+
+data:
+  sample_rate: 16000
+  context_seconds: 2.0

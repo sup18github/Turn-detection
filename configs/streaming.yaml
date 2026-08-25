@@ -1,0 +1,11 @@
+streaming:
+  chunk_duration_ms: 100
+  buffer_duration_seconds: 2.0
+  sample_rate: 16000
+
+state_machine:
+  end_threshold: 0.75
+  continue_threshold: 0.45
+  smoothing_frames: 3
+  min_silence_guard_ms: 250
+  max_silence_timeout_ms: 2000

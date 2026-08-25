@@ -1,0 +1,22 @@
+experiment_name: exp_002_acoustic
+model:
+  type: acoustic_mlp
+  n_mfcc: 13
+  n_fft: 512
+  hop_length: 160
+  include_spectral: true
+  include_pitch: true
+  include_energy_slope: true
+  hidden_dims: [128, 64, 32]
+  dropout: 0.2
+
+training:
+  batch_size: 32
+  learning_rate: 0.0005
+  epochs: 20
+  weight_decay: 0.0001
+  pos_weight: 2.0
+
+data:
+  sample_rate: 16000
+  context_seconds: 2.0
