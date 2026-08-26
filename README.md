@@ -114,6 +114,30 @@ tiny-turn-detector/
 ## 🔗 Live Application & Links
 
 - **GitHub Repository (Public)**: [https://github.com/sup18github/Turn-detection](https://github.com/sup18github/Turn-detection)
-- **Direct 1-Click Live Application**: [https://46513bc7b9d57c.lhr.life](https://46513bc7b9d57c.lhr.life) *(Direct HTTPS link for anyone over the internet)*
 - **Local Application**: [http://localhost:8501](http://localhost:8501)
+
+---
+
+## 📸 Output & Visual Demos
+
+Below are the visual outputs and execution results of the **TurnPulse** Hinglish Audio Turn Detection System:
+
+### 1. Live Audio Turn Detection & State Decision
+![Output Screenshot 1](output/1.png)
+
+### 2. Waveform & VAD Speech/Pause Region Analysis
+![Output Screenshot 2](output/2.png)
+
+### 3. Real-Time Pause Feature Extraction & Model Specs
+![Output Screenshot 3](output/3.png)
+
+### 4. Benchmark Matrix & Model Performance Comparison
+![Output Screenshot 4](output/4.png)
+
+### 5. Slice-Based Category Evaluation
+![Output Screenshot 5](output/5.png)
+
+### 6. Streaming Latency Breakdown & System Metrics
+![Output Screenshot 6](output/6.png)
+
 
