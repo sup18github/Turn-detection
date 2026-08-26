@@ -113,6 +113,7 @@ tiny-turn-detector/
 
 ## 🔗 Live Application & Links
 
-- **GitHub Repository**: [https://github.com/sup18github/Turn-detection](https://github.com/sup18github/Turn-detection)
-- **Live Streamlit App**: [http://localhost:8501](http://localhost:8501)
+- **GitHub Repository (Public)**: [https://github.com/sup18github/Turn-detection](https://github.com/sup18github/Turn-detection)
+- **Public Live Application**: [https://open-needles-sip.loca.lt](https://open-needles-sip.loca.lt) *(Tunnel IP if prompted: `152.58.34.120`)*
+- **Local Application**: [http://localhost:8501](http://localhost:8501)
 
