@@ -114,6 +114,6 @@ tiny-turn-detector/
 ## 🔗 Live Application & Links
 
 - **GitHub Repository (Public)**: [https://github.com/sup18github/Turn-detection](https://github.com/sup18github/Turn-detection)
-- **Direct 1-Click Live Application**: [https://9f95eced04bae8.lhr.life](https://9f95eced04bae8.lhr.life) *(Direct HTTPS link for anyone over the internet)*
+- **Direct 1-Click Live Application**: [https://46513bc7b9d57c.lhr.life](https://46513bc7b9d57c.lhr.life) *(Direct HTTPS link for anyone over the internet)*
 - **Local Application**: [http://localhost:8501](http://localhost:8501)
 
