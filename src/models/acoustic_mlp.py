@@ -22,4 +22,8 @@ class AcousticMLP(nn.Module):
         self.net = nn.Sequential(*layers)
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
+        if x.dim() == 1:
+            x = x.unsqueeze(0)
+            return self.net(x).squeeze(0).squeeze(-1)
         return self.net(x).squeeze(-1)
+

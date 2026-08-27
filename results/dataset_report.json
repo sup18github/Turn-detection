@@ -1,31 +1,31 @@
 {
-  "total_samples": 600,
-  "total_duration_hours": 0.3333333333333333,
+  "total_samples": 400,
+  "total_duration_hours": 0.2222222222222222,
   "unique_speakers": 25,
   "unique_conversations": 50,
   "sample_rate_hz": 16000,
   "channels": 1,
   "format": "Float32 PCM",
   "label_distribution": {
-    "CONTINUE": 400,
-    "END": 200
+    "CONTINUE": 266,
+    "END": 134
   },
-  "class_balance_pct": 33.33333333333333,
+  "class_balance_pct": 33.5,
   "language_distribution": {
-    "hinglish": 200,
-    "hindi": 200,
-    "english": 200
+    "hinglish": 134,
+    "hindi": 133,
+    "english": 133
   },
   "category_distribution": {
-    "normal_ending": 100,
-    "mid_sentence_pause": 100,
-    "filler": 100,
-    "short_answer": 100,
-    "long_hesitation": 100,
-    "self_correction": 100
+    "normal_ending": 67,
+    "mid_sentence_pause": 67,
+    "filler": 67,
+    "short_answer": 67,
+    "long_hesitation": 66,
+    "self_correction": 66
   },
-  "mean_pause_duration_s": 0.8666666666666667,
-  "std_pause_duration_s": 0.39048220122220834,
+  "mean_pause_duration_s": 0.86725,
+  "std_pause_duration_s": 0.39113284156328965,
   "max_pause_duration_s": 1.6,
   "min_pause_duration_s": 0.5
 }

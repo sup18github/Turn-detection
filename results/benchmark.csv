@@ -1,6 +1,6 @@
 Model,F1,Precision,Recall,Accuracy,False Early-End %,Median Latency (ms),Size (MB),TN,FP,FN,TP
-Pause Threshold (700ms),1.0,1.0,1.0,1.0,0.0,0.0,<0.01,80,0,0,40
-VAD + Pause MLP,1.0,1.0,1.0,1.0,0.0,0.06,0.003,80,0,0,40
-Acoustic MLP,1.0,1.0,1.0,1.0,0.0,0.16,0.06,80,0,0,40
-Whisper Tiny (Mean Pool),0.3284,0.4074,0.275,0.625,20.0,0.1,0.23,64,16,29,11
-Hybrid (Whisper+GRU+Pause),1.0,1.0,1.0,1.0,0.0,2.47,0.417,80,0,0,40
+Pause Threshold (700ms),1.0,1.0,1.0,1.0,0.0,0.0,<0.01,53,0,0,27
+VAD + Pause MLP,1.0,1.0,1.0,1.0,0.0,0.01,0.003,53,0,0,27
+Acoustic MLP,1.0,1.0,1.0,1.0,0.0,0.04,0.06,53,0,0,27
+Whisper Tiny (Mean Pool),0.0,0.0,0.0,0.6625,0.0,0.03,0.23,53,0,27,0
+Hybrid (Whisper+GRU+Pause),1.0,1.0,1.0,1.0,0.0,0.37,0.417,53,0,0,27

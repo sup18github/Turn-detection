@@ -54,9 +54,19 @@ class HybridTurnModel(nn.Module):
         self.fusion_mlp = nn.Sequential(*layers)
 
     def forward(self, encoder_features: torch.Tensor, pause_features: torch.Tensor) -> torch.Tensor:
+        unbatched = False
+        if encoder_features.dim() == 2:
+            encoder_features = encoder_features.unsqueeze(0)
+            unbatched = True
+        if pause_features.dim() == 1:
+            pause_features = pause_features.unsqueeze(0)
+
         # encoder_features: (batch_size, seq_len, 384)
         # pause_features:   (batch_size, 6)
         audio_rep = self.temporal(encoder_features)
         fused = torch.cat([audio_rep, pause_features], dim=-1)
         prob = self.fusion_mlp(fused).squeeze(-1)
+        if unbatched:
+            return prob.squeeze(0)
         return prob
+
