@@ -2,6 +2,9 @@
 
 **TurnPulse** is a tiny, fast (<35ms latency, <45MB footprint), and accurate audio-based turn detection system built specifically for voice AI infrastructure handling **Indian Hinglish conversational speech**, filler words (*matlab*, *actually*, *haan*, *basically*, *arre*, *toh*), mid-sentence code-switching pauses, and trailing prosody.
 
+> 🚀 **[TRY LIVE INTERACTIVE DEMO (DIRECT LINK)](https://d24d31bd1ea615.lhr.life)**  
+> *(Click to open the live web app directly in any browser — no setup required)*
+
 ---
 
 ## Key Features & Highlights
@@ -131,6 +134,14 @@ turn-detection/
 ├── results/          # Benchmark matrices, reports, ONNX checkpoints
 └── docs/             # PRD, Architecture, Experiment logs
 ```
+
+---
+
+## 🔗 Live Application & Links
+
+- **Live Interactive Demo (Public)**: [https://d24d31bd1ea615.lhr.life](https://d24d31bd1ea615.lhr.life) *(Direct 1-click HTTPS link for live audio recording & turn analysis)*
+- **GitHub Repository (Public)**: [https://github.com/sup18github/Turn-detection](https://github.com/sup18github/Turn-detection)
+- **Local Application**: [http://localhost:8501](http://localhost:8501)
 
 ---
 
